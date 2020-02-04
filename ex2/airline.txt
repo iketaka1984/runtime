@@ -1,0 +1,23 @@
+var seats;
+seats=3;
+var agent1;
+agent1=1;
+var agent2;
+agent2=1;
+par{
+    while (agent1==1) do
+        if (seats>0) then
+            seats=seats-1;
+        else
+            agent1=0;
+        end;
+    end;
+}{
+    while (agent2==1) do
+        if (seats>0) then
+            seats=seats-1;
+        else
+            agent2=0;
+        end;
+    end;
+}

@@ -1,0 +1,14 @@
+var F;
+F=3;
+var S;
+S=4;
+var T;
+T=0;
+var N;
+N=4;
+while (N > 0) do
+    T = F + S;
+    F = S;
+    S = T;
+    N = N - 1;
+end;
